@@ -60,10 +60,8 @@ img {
 
 .container {
     max-width: 1158px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 156px;
-    margin-right: 156px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .link {
@@ -139,6 +137,11 @@ img {
     align-items: center;
 }
 
+.header-nav-list {
+    display: flex;
+    gap: 40px;
+}
+
 .header-nav-list-item {
     font-weight: 500;
     line-height: 1.5;
@@ -190,7 +193,7 @@ img {
 }
 
 .footer-logo-link {
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -227,7 +230,7 @@ img {
     color: var(--white-cl);
     display: flex;
     flex-direction: column;
-    height: 600px;
+    padding: 188px 0;
     justify-content: center;
     align-items: center;
     max-width: 1440px;
@@ -370,7 +373,7 @@ img {
     display: flex;
     gap: var(--intendance);
     justify-content: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -392,9 +395,9 @@ img {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 15px;
     border: 1px solid var(--border-cl);
     border-top: 0px;
-    padding-top: 32px;
 }
